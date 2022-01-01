@@ -36,7 +36,6 @@ describe('[Challenge] Naive receiver', function () {
         const customFactory = await ethers.getContractFactory('AttackNaiveReceiver', attacker);
         const custom = await customFactory.deploy(this.pool.address);
 
-        const abi = ["function drain(address)"];
         const tx = await custom.populateTransaction.drain(this.receiver.address);
         await attacker.sendTransaction(tx);
     });
