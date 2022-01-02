@@ -1,25 +1,27 @@
-## Fork with my solutions
+## Fork with solutions
 
 spoilers, obviously
 
 ### 1: Unstoppable
 
-- test/unstoppable/unstoppable.challenge.js
+- [test/unstoppable/unstoppable.challenge.js](test/unstoppable/unstoppable.challenge.js)
 
 ### 2: Naive receiver
 
-- test/naive-receiver/naive-receiver.challenge.js
-- contracts/attacker-contracts/AttackNaiveReceiver.sol
+- [test/naive-receiver/naive-receiver.challenge.js](test/naive-receiver/naive-receiver.challenge.js)
+- [contracts/attacker-contracts/AttackNaiveReceiver.sol](contracts/attacker-contracts/AttackNaiveReceiver.sol)
 
 ### 3: Truster
 
-- test/truster/truster.challenge.js
-- contracts/attacker-contracts/AttackTruster.sol
+- [test/truster/truster.challenge.js](test/truster/truster.challenge.js)
+- [contracts/attacker-contracts/AttackTruster.sol](contracts/attacker-contracts/AttackTruster.sol)
 
 ### 4: Side entrance
 
-- test/side-entrance/side-entrance.challenge.js
-- contracts/attacker-contracts/AttackSideEntranceLenderPool.sol
+- [test/side-entrance/side-entrance.challenge.js](test/side-entrance/side-entrance.challenge.js)
+- [contracts/attacker-contracts/AttackSideEntranceLenderPool.sol](contracts/attacker-contracts/AttackSideEntranceLenderPool.sol)
+
+------------------------------------------------------------------------------------
 
 ![](cover.png)
 
