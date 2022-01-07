@@ -1,6 +1,8 @@
 ## Fork with my solutions
 
-spoilers, obviously
+Spoilers, obviously.
+
+No explanations, just code.
 
 ### 1: Unstoppable
 
@@ -20,6 +22,12 @@ spoilers, obviously
 
 - test/side-entrance/side-entrance.challenge.js
 - contracts/attacker-contracts/AttackSideEntranceLenderPool.sol
+
+### 5: The rewarder
+
+- test/the-rewarder/the-rewarder.challenge.js
+- contracts/attacker-contracts/AttackRewarder.sol
+
 
 ![](cover.png)
 
