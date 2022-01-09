@@ -29,6 +29,12 @@ No explanations, just code.
 - [test/the-rewarder/the-rewarder.challenge.js](test/the-rewarder/the-rewarder.challenge.js)
 - [contracts/attacker-contracts/AttackRewarder.sol](contracts/attacker-contracts/AttackRewarder.sol)
 
+### 6: Selfie
+
+- [test/selfie/selfie.challenge.js](test/selfie/selfie.challenge.js)
+- [contracts/attacker-contracts/AttackSelfie.sol](contracts/attacker-contracts/AttackSelfie.sol)
+
+
 ------------------------------------------------------------------------------------
 
 
