@@ -34,6 +34,10 @@ No explanations, just code.
 - [test/selfie/selfie.challenge.js](test/selfie/selfie.challenge.js)
 - [contracts/attacker-contracts/AttackSelfie.sol](contracts/attacker-contracts/AttackSelfie.sol)
 
+### 7: Compromised
+
+- [test/compromised/compromised.challenge.js](test/compromised/compromised.challenge.js)
+- [contracts/attacker-contracts/AttackCompromised.sol](contracts/attacker-contracts/AttackCompromised.sol)
 
 ------------------------------------------------------------------------------------
 
